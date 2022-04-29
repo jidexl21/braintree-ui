@@ -115,7 +115,7 @@ document.querySelectorAll(".particle-group .particle-layer").forEach(function(el
   let curr = { ...cfg};
 	curr.particles.color.value = x.color;
   if(Object.keys(x).indexOf("image") != -1){
-    curr.particles.shape.type = ["image","circle"];//["polygon","circle","triangle","image"];
+    curr.particles.shape.type = ["image","circle","triangle"];//["polygon","circle","triangle","image"];
     curr.particles.shape.image.src = x.image;
   }
   if(Object.keys(x).indexOf("random") != -1){
