@@ -468,7 +468,8 @@ a.btn-action-narrow:hover {
 .foot, 
 .foot-info {
   
-  background-color: #F1FAEE;
+  background-color: rgba(153,204,204,0.2);
+  
   color: var(--textgray);
   margin-top: 0px;
   font-size: small;
