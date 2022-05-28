@@ -886,3 +886,7 @@ ol.bus-blk>li:nth-child(12)::before{
   padding: 1.5em 0;
 
 }
+
+.accordion.container .accordion-item {
+  border: none;
+}
