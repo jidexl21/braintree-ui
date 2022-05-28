@@ -1,7 +1,7 @@
 const fs = require("fs"); 
 const path = require("path");
 const testFolder = "src";
-const targetDir = "dist";
+const targetDir = "docs";
 
 
 if (!fs.existsSync(targetDir)) fs.mkdirSync(targetDir);
