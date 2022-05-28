@@ -486,7 +486,7 @@ a.btn-action-narrow:hover {
   font-weight: 700;
 }
 .foot-inscription{
-  padding-top: 5px;
+  padding: 1em 0;
 }
 .footer{
   position: relative;
@@ -811,4 +811,78 @@ ol.bus-blk>li:nth-child(12)::before{
   padding: 30px;
   font-size: 1.4em;
   max-width: 80%;
+}
+.mantra {
+  margin-bottom: 4em;
+  margin-top: 3em;
+}
+.mantra h2{
+  margin-bottom: 30px;
+}
+.mantra>div:nth-child(2){
+
+  border-left: 1px solid #020202;
+  padding-left: 30px;
+}
+
+.action-blocks>div{
+  padding: 2em 4em;
+  border-radius: 5px;
+  background-color: #d3d3d3;
+  margin-bottom: 40px;
+  background-color: var(--red);
+  color: #fff;
+}
+
+.action-blocks>div h3{
+  font-size: 1.4em;
+}
+.action-blocks>div p{
+  font-weight: 200;
+}
+.action-blocks>div:nth-child(4n+2){
+  background-color:#457B9D;
+  
+}
+.action-blocks>div:nth-child(4n+3){
+  background-color: #1D3557; 
+}
+.action-blocks>div:nth-child(4n+4){
+  background-color: #F1FAEE; 
+  color: #1e2125;
+  border: 1px solid #dedede;
+}
+.call-to-action {
+  padding: 4em;
+  background-color: #F1FAEE; 
+  color: #1e2125;
+  border: 1px solid #dedede;
+  margin: 3em 0;
+}
+.call-to-action .content {
+  font-size: larger;
+  max-width: 80%;
+}
+
+.priority-cards .card-body {
+  border: none;
+  padding: 1.5em 0;
+
+}
+.priority-cards .card {
+  background-color: transparent;
+  border: none;
+}
+.priority-cards img {
+  border-radius: 4px;
+}
+
+.text-cards .card {
+  background-color: transparent;
+  border: none;
+}
+.text-cards .card-body {
+  border: none;
+  padding: 1.5em 0;
+
 }
