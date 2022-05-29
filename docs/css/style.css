@@ -919,3 +919,11 @@ ol.bus-blk>li:nth-child(12)::before{
 .accordion.container .accordion-item {
   border: none;
 }
+.product-image {
+  text-align: center;
+  position: relative;
+}
+.product-image img{
+  width: 80%8;
+}
+
